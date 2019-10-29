@@ -1,0 +1,38 @@
+.header {
+  height: 15vh;
+  min-height: 3rem;
+  background-color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  &__logo {
+    width: 7rem;
+    // height: 1rem;
+  }
+
+  &__logo:hover {
+    animation: moveInRight 1s ease-out;
+  }
+
+  .navigation-container {
+    display: flex;
+    align-items: center;
+    .navigation {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      li {
+        padding: 0 3rem;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $color-grey-dark-3;
+          &:hover {
+            color: aliceblue;
+          }
+        }
+      }
+    }
+  }
+}

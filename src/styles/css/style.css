@@ -1,0 +1,47 @@
+body {
+  font-family: "Lato", "Kanit" sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #333; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.header {
+  height: 15vh;
+  min-height: 3rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem; }
+  .header__logo {
+    width: 7rem; }
+  .header__logo:hover {
+    animation: moveInRight 1s ease-out; }
+  .header .navigation-container {
+    display: flex;
+    align-items: center; }
+    .header .navigation-container .navigation {
+      display: flex;
+      align-items: center;
+      list-style: none; }
+      .header .navigation-container .navigation li {
+        padding: 0 3rem; }
+        .header .navigation-container .navigation li a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #333; }
+          .header .navigation-container .navigation li a:hover {
+            color: aliceblue; }
