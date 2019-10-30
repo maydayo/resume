@@ -1,0 +1,50 @@
+#about {
+  margin: 0 $margin-horizontal-main-section;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  //   .about-wrapper {
+  //     display: flex;
+  //     flex-direction: column;
+  //   }
+  .about-pic-container {
+    flex: 1;
+    img {
+      display: block;
+      margin: auto;
+      width: 30rem;
+    }
+  }
+  .about-content-container {
+    flex: 1;
+  }
+
+  .about-header {
+      font-size: 3rem;
+      color: $color-grey-light-1;
+  }
+
+  .about-skill {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  .about-skill-item {
+    color: $color-primary-light;
+    border: $color-primary-light solid;
+    border-radius: 5px;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .about-main-content {
+    font-size: 10rem;
+    color: $color-grey-light-1;
+  }
+  .about-sub-content {
+    font-size: 7rem;
+  }
+}
