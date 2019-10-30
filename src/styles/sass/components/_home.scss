@@ -1,0 +1,27 @@
+#home {
+  margin: 0 $margin-horizontal-main-section;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .home-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-greeting {
+    font-size: 3rem;
+    color: #72a689;
+  }
+  .home-main-content {
+    font-size: 10rem;
+    color: $color-grey-light-1;
+  }
+  .home-sub-content {
+    font-size: 7rem;
+  }
+  .home-arrow {
+    font-size: 3rem;
+
+  }
+}
