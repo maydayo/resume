@@ -1,7 +1,7 @@
 import React from "react";
 
 const AboutHeader = () => (
-  <div className='about-header'>
+  <div className='header-text'>
       About Me
   </div>
 );

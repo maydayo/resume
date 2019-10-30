@@ -22,15 +22,13 @@
     flex: 1;
   }
 
-  .about-header {
-      font-size: 3rem;
-      color: $color-grey-light-1;
+  .about-info {
+    margin-bottom: 3rem;
   }
-
   .about-skill {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
   .about-skill-item {
     color: $color-primary-light;
@@ -39,12 +37,5 @@
     margin: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-  .about-main-content {
-    font-size: 10rem;
-    color: $color-grey-light-1;
-  }
-  .about-sub-content {
-    font-size: 7rem;
   }
 }

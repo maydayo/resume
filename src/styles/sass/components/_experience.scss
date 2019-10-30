@@ -1,0 +1,28 @@
+#experience {
+  margin: 0 $margin-horizontal-main-section;
+  display: flex;
+  flex-direction: column;
+  //flex-wrap: wrap;
+  //   justify-content: center;
+}
+.experience-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experience-card {
+    width: 80%;
+    //height: 15rem;
+    padding: 2rem 3rem;
+    margin-bottom: 2rem;
+    //background-color: rebeccapurple;
+     background-color: rgba($color-grey-dark-2, 0.2);
+    &--title{
+        color: $color-primary-light;
+    }
+}
