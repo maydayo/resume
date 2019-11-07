@@ -5,6 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
   .home-wrapper {
     display: flex;
     flex-direction: column;
@@ -20,8 +23,7 @@
   .home-sub-content {
     font-size: 7rem;
   }
-  .home-arrow {
-    font-size: 3rem;
-
+  .home-arrow-icon {
+    margin-top: 3rem;    
   }
 }
