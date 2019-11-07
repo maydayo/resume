@@ -1,15 +1,11 @@
 import React from "react";
-import WorkExperienceHeader from "./WorkExperienceHeader"
-import WorkExperienceContent from "./WorkExperienceContent"
-import EducationHeader from './EducationHeader'
-import EducationContent from './EducationContent'
+import WorkExperienceHeader from "./WorkExperienceHeader";
+import WorkExperienceContent from "./WorkExperienceContent";
 
 const Experiences = () => (
-  <section id="experience">
+  <section id="experience" data-aos="fade-up" data-aos-offset="200">
     <WorkExperienceHeader />
     <WorkExperienceContent />
-    <EducationHeader />
-    <EducationContent />
   </section>
 );
 
