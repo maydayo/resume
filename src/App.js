@@ -8,11 +8,12 @@ import About from "./components/About/About";
 import Experience from "./components/Experiences/Experiences";
 import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
+import Navigation from "./components/Navigation/Navigation";
 
 const App = () => {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 2000
     });
   }, []);
   return (
@@ -23,6 +24,8 @@ const App = () => {
       <Experience />
       <Education />
       <Contact />
+      <Navigation />
+
     </div>
   );
 };
