@@ -1,28 +1,35 @@
 #experience {
-  margin: 0 $margin-horizontal-main-section;
+  //margin: 0 $margin-horizontal-main-section;
+  padding-top: 15vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   //flex-wrap: wrap;
   //   justify-content: center;
 }
 .experience-header {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
 }
 .experience-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .experience-card {
-    width: 80%;
-    //height: 15rem;
-    padding: 2rem 3rem;
-    margin-bottom: 2rem;
-    //background-color: rebeccapurple;
-     background-color: rgba($color-grey-dark-2, 0.2);
-    &--title{
-        color: $color-primary-light;
-    }
+  width: 100%;
+  padding: 2rem 3rem;
+  margin-bottom: 2rem;
+  background-color: rgba($color-grey-light-2, 0.2);
+  &--title {
+    color: $color-primary-light;
+    white-space: pre-line;
+    margin-bottom: 1.8rem;
+    border-bottom: .5px solid $color-grey-dark-2;
+  }
+  li{
+      margin-bottom: 1.5rem;
+      list-style-type: square;
+  }
 }

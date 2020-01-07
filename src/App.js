@@ -16,9 +16,9 @@ const App = () => {
     });
   }, []);
   return (
-    <div>
+    <div className="content-warper">
       <Home />
-      <Header />
+      {/* <Header /> */}
       <About />
       <Experience />
       <Education />

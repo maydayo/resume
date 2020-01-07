@@ -7,8 +7,11 @@ console.log(targets);
 const About = () => (
   <section
     id="about"
-    data-aos='fade-up'
+    className="section-warper"
+    data-aos='fade'
     data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
   >
     <AboutPicture />
     <AboutContent />

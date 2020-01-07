@@ -2,8 +2,14 @@
 
 @import "./base/typography";
 @import "./base/base";
+@import "./base/animation";
 
 @import "./components/header";
 @import "./components/home";
 @import "./components/about";
 @import "./components/experience";
+@import "./components/education";
+@import "./components/contact";
+@import "./components/arrow";
+
+@import "./layouts/warper"

@@ -1,29 +1,33 @@
 #about {
-  margin: 0 $margin-horizontal-main-section;
-  height: 85vh;
+  // margin: 0 $margin-horizontal-main-section;
+  padding-top: 15vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  //   .about-wrapper {
-  //     display: flex;
-  //     flex-direction: column;
-  //   }
+
   .about-pic-container {
     flex: 1;
     img {
       display: block;
       margin: auto;
       width: 30rem;
+      @media screen and (max-width: $screenXxsMax) {
+        // 768 - 1024
+        width: 25rem;
+      }  
     }
   }
   .about-content-container {
     flex: 1;
+    min-width: 60%;
   }
 
   .about-info {
     margin-bottom: 3rem;
+    //min-width: 50rem;
   }
   .about-skill {
     display: flex;

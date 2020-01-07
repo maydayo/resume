@@ -8,11 +8,16 @@ export const navLinks = [
     url: "#experience",
   },
   {
-    name: "Work",
-    url: "#projects",
+    name: "Education",
+    url: "#education",
   },
   {
     name: "Contact",
     url: "#contact",
   },
+  {
+    name: "Resume",
+    url: "#contact",
+  },
+
 ];

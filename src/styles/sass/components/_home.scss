@@ -1,5 +1,5 @@
 #home {
-  margin: 0 $margin-horizontal-main-section;
+  //margin: 0 $margin-horizontal-main-section;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,16 +14,49 @@
   }
   .home-greeting {
     font-size: 3rem;
-    color: #72a689;
+    color: $color-primary-light;
   }
   .home-main-content {
+    text-align: center;
     font-size: 10rem;
     color: $color-grey-light-1;
   }
   .home-sub-content {
     font-size: 7rem;
+    text-align: center;
   }
   .home-arrow-icon {
     margin-top: 3rem;    
   }
+  @media screen and (min-width: $screenSmMin) and (max-width: $screenSmMax) {
+    // 768 - 1024
+    padding: 0px 90px;
+    .home-main-content {
+      font-size: 6rem;
+    }
+    .home-sub-content {
+      font-size: 3rem;
+    }  
+  }
+  @media screen and (min-width: $screenXsMin) and (max-width: $screenXsMax) {
+    // 481 - 767
+    padding: 0px 15px;
+    .home-main-content {
+      font-size: 5rem;
+    }
+    .home-sub-content {
+      font-size: 2rem;
+    }  
+  }
+  @media screen and (max-width: $screenXxsMax) {
+    // 320 - 480
+    padding: 0px 25px;
+    .home-main-content {
+      font-size: 5rem;
+    }
+    .home-sub-content {
+      font-size: 2rem;
+    }  
+  }
+
 }

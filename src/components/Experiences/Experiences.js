@@ -3,7 +3,15 @@ import WorkExperienceHeader from "./WorkExperienceHeader";
 import WorkExperienceContent from "./WorkExperienceContent";
 
 const Experiences = () => (
-  <section id="experience" data-aos="fade-up" data-aos-offset="200">
+  <section
+    id="experience"
+    className="section-warper"
+    data-aos="fade"
+    //data-aos-anchor-placement="top-bottom"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+  >
     <WorkExperienceHeader />
     <WorkExperienceContent />
   </section>
