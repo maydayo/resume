@@ -9,10 +9,16 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 3rem;
   z-index: 20;
-  
+  overflow-x: hidden;
+  @media screen and (max-width: $screenXxsMax) {
+    // 320 - 480
+    visibility: hidden ;
+    //padding: 0px 25px;
+  }
+
   &__logo {
     width: 7rem;
     // height: 1rem;

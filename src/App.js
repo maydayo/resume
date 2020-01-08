@@ -18,14 +18,13 @@ const App = () => {
   }, []);
   return (
     <div className="content-warper">
+      <Navigation />
       <Home />
-      {/* <Header /> */}
+      <Header />
       <About />
       <Experience />
       <Education />
       <Contact />
-      <Navigation />
-
     </div>
   );
 };

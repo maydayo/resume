@@ -12,8 +12,8 @@ const navItem = navLinks.map(item => {
   );
 });
 const HorizontalHeader = () => (
-  <nav className="navigation-container">
-    <ul className="navigation">{navItem}</ul>
+  <nav className="horizontal-navigation-container">
+    <ul className="horizontal-navigation">{navItem}</ul>
   </nav>
 );
 export default HorizontalHeader;
