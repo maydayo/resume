@@ -24,7 +24,7 @@ const contacts = [
     link: "mailto:wanwisa.silanan@gmail.com"
   },
   {
-    name: "mail",
+    name: "phone",
     icon: "phone",
     info: "0803677348",
     hover: "0803677348",
@@ -33,7 +33,7 @@ const contacts = [
 ];
 
 const ContactListItem = ({ contact }) => {
-  const { name, icon, info, hover, link, onClick, notlink } = contact;
+  const { icon, info, hover, link, notlink } = contact;
   return (
     <li className="contact-list-item">
       {notlink ? (
@@ -59,7 +59,7 @@ const ContactListItem = ({ contact }) => {
 const ContactList = () => (
   <div className="contact-list-wrapper">
     {contacts.map(contact => (
-      <ContactListItem contact={contact} />
+      <ContactListItem key={contact.name} contact={contact} />
     ))}
   </div>
 );

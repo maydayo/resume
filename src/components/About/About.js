@@ -2,7 +2,7 @@ import React from "react";
 import AboutPicture from "./AboutPicture";
 import AboutContent from "./AboutContent";
 
-const targets = document.querySelectorAll("div");
+// const targets = document.querySelectorAll("div");
 const About = () => (
   <section
     id="about"

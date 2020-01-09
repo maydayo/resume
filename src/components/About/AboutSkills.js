@@ -12,7 +12,7 @@ const skills = [
 const AboutSkills = () => (
   <div className="about-skill">
     {skills.map(skill => (
-      <div className="about-skill-item">{skill}</div>
+      <div className="about-skill-item" key={skill}>{skill}</div>
     ))}
   </div>
 );

@@ -10,20 +10,20 @@ const Navigation = () => {
     <div className="navigation">
       <input
         type="checkbox"
-        class="navigation__checkbox"
+        className="navigation__checkbox"
         checked={checked}
         onChange={handleOnChange}
         id="navi-toggle"
       />
 
-      <label for="navi-toggle" class="navigation__button">
-        <span class="navigation__icon">&nbsp;</span>
+      <label htmlFor="navi-toggle" className="navigation__button">
+        <span className="navigation__icon">&nbsp;</span>
       </label>
 
-      <div class="navigation__background">&nbsp;</div>
+      <div className="navigation__background">&nbsp;</div>
 
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
+      <nav className="navigation__nav">
+        <ul className="navigation__list">
           {navLinks.map(nav => {
             const { name, url } = nav;
             return (

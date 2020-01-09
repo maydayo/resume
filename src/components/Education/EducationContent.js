@@ -14,7 +14,7 @@ const works = [
 const EducationContent = () => (
   <div className="experience-content">
     {works.map(({ title, info }) => (
-      <Card title={title} info={info} />
+      <Card title={title} info={info} key={title} />
     ))}
   </div>
 );
