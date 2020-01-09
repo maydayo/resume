@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../assets/images/maydayo_icon.png";
+import pic from "../../assets/images/profilepic.png";
 
 const AboutPicture = () => (
   <div className="about-pic-container">
