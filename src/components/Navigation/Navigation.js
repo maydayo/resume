@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { navLinks } from "../../config";
 
 const Navigation = () => {
-  const [checked, setChecked] = useState(true);
+  const [checked, setChecked] = useState(false);
   const handleOnChange = () => {
     setChecked(!checked);
   };
