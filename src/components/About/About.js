@@ -3,7 +3,6 @@ import AboutPicture from "./AboutPicture";
 import AboutContent from "./AboutContent";
 
 const targets = document.querySelectorAll("div");
-console.log(targets);
 const About = () => (
   <section
     id="about"

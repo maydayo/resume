@@ -11,7 +11,6 @@ const works = [
   },
 ];
 
-console.log(works);
 const EducationContent = () => (
   <div className="experience-content">
     {works.map(({ title, info }) => (
