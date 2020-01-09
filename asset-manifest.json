@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.639b1303.chunk.css",
-    "main.js": "/static/js/main.9620b618.chunk.js",
-    "main.js.map": "/static/js/main.9620b618.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ec7993a7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ec7993a7.js.map",
-    "static/css/2.7abef457.chunk.css": "/static/css/2.7abef457.chunk.css",
-    "static/js/2.5db13d99.chunk.js": "/static/js/2.5db13d99.chunk.js",
-    "static/js/2.5db13d99.chunk.js.map": "/static/js/2.5db13d99.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.efd1743e85065194d78533a9d1317564.js": "/precache-manifest.efd1743e85065194d78533a9d1317564.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7abef457.chunk.css.map": "/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.639b1303.chunk.css.map": "/static/css/main.639b1303.chunk.css.map",
-    "static/media/maydayo_icon.png": "/static/media/maydayo_icon.1392d90f.png"
+    "main.css": "/resume/static/css/main.f1896ac2.chunk.css",
+    "main.js": "/resume/static/js/main.151b7f22.chunk.js",
+    "main.js.map": "/resume/static/js/main.151b7f22.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.dfb416d0.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.dfb416d0.js.map",
+    "static/css/2.7abef457.chunk.css": "/resume/static/css/2.7abef457.chunk.css",
+    "static/js/2.0a22a07e.chunk.js": "/resume/static/js/2.0a22a07e.chunk.js",
+    "static/js/2.0a22a07e.chunk.js.map": "/resume/static/js/2.0a22a07e.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.db95e946096b231f05f5a46e2e0214c5.js": "/resume/precache-manifest.db95e946096b231f05f5a46e2e0214c5.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/2.7abef457.chunk.css.map": "/resume/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.f1896ac2.chunk.css.map": "/resume/static/css/main.f1896ac2.chunk.css.map",
+    "static/media/maydayo_icon.png": "/resume/static/media/maydayo_icon.1392d90f.png"
   }
 }
