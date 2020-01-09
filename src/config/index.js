@@ -17,7 +17,8 @@ export const navLinks = [
   },
   {
     name: "Resume",
-    url: "#contact",
+    url: "https://github.com/maydayo/resume-pdf/raw/master/wanwisa.silanan.pdf",
+    download:true
   },
 
 ];
